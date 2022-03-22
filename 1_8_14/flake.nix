@@ -23,7 +23,7 @@
   
   inputs."git://github.com/disruptek/cutelog.git".owner = "nim-nix-pkgs";
   inputs."git://github.com/disruptek/cutelog.git".ref   = "master";
-  inputs."git://github.com/disruptek/cutelog.git".repo  = "git://github.com/disruptek/cutelog.git";
+  inputs."git://github.com/disruptek/cutelog.git".repo  = "git://github.com/disruptek/cutelog";
   inputs."git://github.com/disruptek/cutelog.git".dir   = "";
   inputs."git://github.com/disruptek/cutelog.git".type  = "github";
   inputs."git://github.com/disruptek/cutelog.git".inputs.nixpkgs.follows = "nixpkgs";
