@@ -11,6 +11,7 @@
   inputs.src-bump-master.ref   = "refs/heads/master";
   inputs.src-bump-master.owner = "disruptek";
   inputs.src-bump-master.repo  = "bump";
+  inputs.src-bump-master.dir   = "";
   inputs.src-bump-master.type  = "github";
   
   inputs."cligen".owner = "nim-nix-pkgs";

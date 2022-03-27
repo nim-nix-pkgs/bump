@@ -11,6 +11,7 @@
   inputs.src-bump-1_8_8.ref   = "refs/tags/1.8.8";
   inputs.src-bump-1_8_8.owner = "disruptek";
   inputs.src-bump-1_8_8.repo  = "bump";
+  inputs.src-bump-1_8_8.dir   = "";
   inputs.src-bump-1_8_8.type  = "github";
   
   inputs."cligen".owner = "nim-nix-pkgs";
