@@ -21,13 +21,13 @@
   inputs."github-disruptek-cutelog".inputs.nixpkgs.follows = "nixpkgs";
   inputs."github-disruptek-cutelog".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."github.com/disruptek/testes".owner = "nim-nix-pkgs";
-  inputs."github.com/disruptek/testes".ref   = "master";
-  inputs."github.com/disruptek/testes".repo  = "github.com/disruptek/testes";
-  inputs."github.com/disruptek/testes".dir   = "";
-  inputs."github.com/disruptek/testes".type  = "github";
-  inputs."github.com/disruptek/testes".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github.com/disruptek/testes".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."balls".owner = "nim-nix-pkgs";
+  inputs."balls".ref   = "master";
+  inputs."balls".repo  = "balls";
+  inputs."balls".dir   = "";
+  inputs."balls".type  = "github";
+  inputs."balls".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."balls".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."cligen".owner = "nim-nix-pkgs";
   inputs."cligen".ref   = "master";
