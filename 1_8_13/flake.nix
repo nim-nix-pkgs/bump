@@ -11,7 +11,6 @@
   inputs.src-bump-1_8_13.ref   = "refs/tags/1.8.13";
   inputs.src-bump-1_8_13.owner = "disruptek";
   inputs.src-bump-1_8_13.repo  = "bump";
-  inputs.src-bump-1_8_13.dir   = "";
   inputs.src-bump-1_8_13.type  = "github";
   
   inputs."cligen".owner = "nim-nix-pkgs";
@@ -22,13 +21,13 @@
   inputs."cligen".inputs.nixpkgs.follows = "nixpkgs";
   inputs."cligen".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."git://github.com/disruptek/cutelog.git".owner = "nim-nix-pkgs";
-  inputs."git://github.com/disruptek/cutelog.git".ref   = "master";
-  inputs."git://github.com/disruptek/cutelog.git".repo  = "git://github.com/disruptek/cutelog.git";
-  inputs."git://github.com/disruptek/cutelog.git".dir   = "";
-  inputs."git://github.com/disruptek/cutelog.git".type  = "github";
-  inputs."git://github.com/disruptek/cutelog.git".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."git://github.com/disruptek/cutelog.git".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."git///github.com/disruptek/cutelog".owner = "nim-nix-pkgs";
+  inputs."git///github.com/disruptek/cutelog".ref   = "master";
+  inputs."git///github.com/disruptek/cutelog".repo  = "git///github.com/disruptek/cutelog";
+  inputs."git///github.com/disruptek/cutelog".dir   = "";
+  inputs."git///github.com/disruptek/cutelog".type  = "github";
+  inputs."git///github.com/disruptek/cutelog".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."git///github.com/disruptek/cutelog".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 

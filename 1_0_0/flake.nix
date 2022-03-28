@@ -11,7 +11,6 @@
   inputs.src-bump-1_0_0.ref   = "refs/tags/1.0.0";
   inputs.src-bump-1_0_0.owner = "disruptek";
   inputs.src-bump-1_0_0.repo  = "bump";
-  inputs.src-bump-1_0_0.dir   = "";
   inputs.src-bump-1_0_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
