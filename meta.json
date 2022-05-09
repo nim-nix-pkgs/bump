@@ -7,7 +7,7 @@
   "license": "MIT",
   "web": "https://github.com/disruptek/bump",
   "refs": [
-    "fatal: unable to access 'https://github.com/disruptek/bump/': Failed to connect to github.com port 443 after 128403 ms: Connection timed out",
+    "fatal: unable to access 'https://github.com/disruptek/bump/': HTTP/2 stream 1 was not closed cleanly before end of the underlying stream",
     ""
   ],
   "heads": []
