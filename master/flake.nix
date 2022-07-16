@@ -13,26 +13,26 @@
   inputs.src-bump-master.repo  = "bump";
   inputs.src-bump-master.type  = "github";
   
-  inputs."github-disruptek-cutelog".owner = "nim-nix-pkgs";
-  inputs."github-disruptek-cutelog".ref   = "master";
-  inputs."github-disruptek-cutelog".repo  = "github-disruptek-cutelog";
-  inputs."github-disruptek-cutelog".dir   = "1_1_2";
-  inputs."github-disruptek-cutelog".type  = "github";
-  inputs."github-disruptek-cutelog".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github-disruptek-cutelog".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github.com/disruptek/cutelog".owner = "nim-nix-pkgs";
+  inputs."github.com/disruptek/cutelog".ref   = "master";
+  inputs."github.com/disruptek/cutelog".repo  = "github.com/disruptek/cutelog";
+  inputs."github.com/disruptek/cutelog".dir   = "";
+  inputs."github.com/disruptek/cutelog".type  = "github";
+  inputs."github.com/disruptek/cutelog".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/disruptek/cutelog".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."github-disruptek-balls".owner = "nim-nix-pkgs";
-  inputs."github-disruptek-balls".ref   = "master";
-  inputs."github-disruptek-balls".repo  = "github-disruptek-balls";
-  inputs."github-disruptek-balls".dir   = "3_7_0";
-  inputs."github-disruptek-balls".type  = "github";
-  inputs."github-disruptek-balls".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github-disruptek-balls".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github.com/disruptek/balls".owner = "nim-nix-pkgs";
+  inputs."github.com/disruptek/balls".ref   = "master";
+  inputs."github.com/disruptek/balls".repo  = "github.com/disruptek/balls";
+  inputs."github.com/disruptek/balls".dir   = "";
+  inputs."github.com/disruptek/balls".type  = "github";
+  inputs."github.com/disruptek/balls".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/disruptek/balls".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."cligen".owner = "nim-nix-pkgs";
   inputs."cligen".ref   = "master";
   inputs."cligen".repo  = "cligen";
-  inputs."cligen".dir   = "v1_5_24";
+  inputs."cligen".dir   = "v1_5_25";
   inputs."cligen".type  = "github";
   inputs."cligen".inputs.nixpkgs.follows = "nixpkgs";
   inputs."cligen".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
